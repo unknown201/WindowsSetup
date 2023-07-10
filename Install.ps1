@@ -122,3 +122,6 @@ $PwshModules | ForEach-Object { Import-Module -Name $_  -Force -Verbose }
 
 # List installed modules
 Get-Module
+
+Add-WUServiceManager -MicrosoftUpdate
+Install-WindowsUpdate -MicrosoftUpdate -AcceptAll -AutoReboot -Force
