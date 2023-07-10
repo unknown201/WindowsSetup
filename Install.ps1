@@ -4,7 +4,6 @@
 
 # Chocolatey packages
 $ChocoPackages = @(         'curl',
-                            'discord',
                             'git',
                             'microsoft-windows-terminal',
                             'nodejs',
