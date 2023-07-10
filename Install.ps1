@@ -25,7 +25,7 @@ $ChocoPackages = @(         'curl',
                             'googlechrome',
                             'qgis',
                             'steam',
-                            'unity',
+                            'unity'
                             )
 
 # PowerShell modules
